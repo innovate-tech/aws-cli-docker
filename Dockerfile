@@ -1,13 +1,13 @@
 FROM alpine:3.7
 
-LABEL maintainer="Raju Dawadi <rajudawadinp@gmail.com>"
+LABEL maintainer="Innovate Tech <himalay@innovatetech.co>"
 
 ARG VCS_REF
 ARG BUILD_DATE
 
 # Metadata
 LABEL org.label-schema.vcs-ref=$VCS_REF \
-      org.label-schema.vcs-url="https://github.com/dwdraju/aws-cli-docker" \
+      org.label-schema.vcs-url="https://github.com/innovate-tech/aws-cli-docker" \
       org.label-schema.build-date=$BUILD_DATE \
       org.label-schema.docker.dockerfile="/Dockerfile"
 
